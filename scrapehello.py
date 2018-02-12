@@ -38,6 +38,10 @@ hello_list_items = all_hello_elements[0].find_all('li')
 print (hello_list_items)
 print('------')
 
+print("List items within the goodbye tag")
+goodbye_list_items = all_goodbye_elements[0].find_all("li")
+print(goodbye_list_items)
+
 
 # print('list items:', all_list_items)
 # print('------')
